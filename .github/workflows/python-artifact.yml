@@ -6,7 +6,7 @@ on:
  workflow_dispatch:
 jobs:
  Create-Artifact:
-   runs-on: ububuntu-latest
+   runs-on: self-hosted
    steps:
      - name: Checkout Repository
        uses: actions/checkout@v4
